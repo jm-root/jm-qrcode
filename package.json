@@ -1,0 +1,31 @@
+{
+  "name": "jm-qrcode",
+  "version": "1.0.0",
+  "description": "qrcode",
+  "main": "./lib/index",
+  "scripts": {
+    "start": "node app",
+    "cluster": "node cluster"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jm-root/jm-qrcode.git"
+  },
+  "keywords": [
+    "javascript",
+    "jm-qrcode"
+  ],
+  "author": {
+    "name": "Jeff YU"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jm-root/jm-qrcode/issues"
+  },
+  "homepage": "https://github.com/jm-root/jm-qrcode",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "qr-image": "^3.2.0"
+  }
+}
